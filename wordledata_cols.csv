@@ -1,0 +1,6 @@
+,ColumnName,DataType,DataScale,Minimum,Maximum,UniqueCount
+0,puzzle_date,datetime64[ns],Interval,2021-06-19 00:00:00,2025-11-06 00:00:00,1602
+1,puzzle_answer,object,Nominal,ABACK,ZESTY,1602
+2,word_first_use,int64,Interval,-1,1992,315
+3,word_etymology,object,Nominal,American Spanish,wide entry 1,1386
+4,word_year_accurate,bool,Nominal/Boolean,False,True,2
