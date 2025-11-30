@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 
 INPUT = "./wordle_tables_clean.csv"
-OUTPUT = "tables_with_new_data.csv"
+OUTPUT = "./wordledata.csv"
 
 def fetch_word_data(word):
     """Fetch year and etymology data for a word from Merriam-Webster."""
